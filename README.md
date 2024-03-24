@@ -2,7 +2,7 @@
 
 ## Overview
 
-Este projeto é um desafio proposto pela Full Cycle. O objetivo é criar uma imagem Docker ultra-leve que contenha um aplicativo em Go. Quando executado em um container, este aplicativo exibe a mensagem "Full Cycle Rocks!!". O principal desafio é garantir que a imagem tenha menos de 2MB. Este projeto também inclui a automação para enviar a imagem criada para o Docker Hub.
+Este projeto é a resolução de um desafio proposto pela Full Cycle. O objetivo é criar uma imagem Docker ultra-leve que contenha um aplicativo em Go. Quando executado em um container, este aplicativo exibe a mensagem "Full Cycle Rocks!!". O principal desafio é garantir que a imagem tenha menos de 2MB. Este projeto também inclui a automação para enviar a imagem criada para o Docker Hub.
 
 **Observação**: Se você preferir não construir a imagem localmente, pode simplesmente baixá-la do Docker Hub. A imagem está disponível em [cawell/fullcycle](https://hub.docker.com/repository/docker/cawell/fullcycle), mas note que o Docker Hub pode apagar imagens que não tiveram pull recentemente. Se a imagem não estiver disponível, você precisará construí-la seguindo as instruções abaixo.
 
